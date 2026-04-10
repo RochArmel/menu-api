@@ -10,7 +10,7 @@ Ce projet est une simple API RESTful faite développée avec **Laravel 12**. Ell
 
 ## **🛠️ Installation locale**
 
-1. Cloner le dépôt : git clone \<votre-lien-repo\>  
+1. Cloner le dépôt : git clone https://github.com/RochArmel/menu-api 
 2. Installer les dépendances : composer install  
 3. Créer le fichier d'environnement : cp .env.example .env  
 4. Générer la clé d'application : php artisan key:generate  
@@ -30,4 +30,4 @@ L'API est accessible via le préfixe /api.
 | POST | /plats | Créer un plat (nécessite categorie\_id) |
 | DELETE | /plats/{id} | Supprimer un plat |
 
-*Projet réalisé dans le cadre de mon portfolio de stage.*
+Note : j'ai fais des tests avec POSTMAN sur les urls : http://localhost:8000/api/categories/ et http://localhost:8000/api/plats
